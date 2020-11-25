@@ -6,6 +6,6 @@ branches:
 build: off
 install:
   - chmod +x gradlew
-  - java -jar ./artifacts/app-ibank-build-for-testers.jar -P:profile=test &
+  - java -jar ./artifacts/app-ibank-build-for-testers.jar -P:profile &
 build_script:
   - ./gradlew test --info "-Dselenide.headless=true"
