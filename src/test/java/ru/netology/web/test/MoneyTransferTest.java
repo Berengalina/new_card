@@ -13,7 +13,6 @@ import static com.codeborne.selenide.Selenide.*;
 
 class MoneyTransferTest {
 
-
     @BeforeEach
     public void setUp() {
         open("http://localhost:9999");
